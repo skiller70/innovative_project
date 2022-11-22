@@ -48,7 +48,7 @@ const ServiceContent = (props) => {
       {/* IMAGE */}
       <div>
         <div className=" relative aspect-square  object-cover ">
-          <Image className=" rounded-[2rem]" fill src={`/${props.img}`} />
+          <Image className=" rounded-[2rem]" fill src={`/${props.img}`} alt="services"/>
         </div>
       </div>
     </div>
