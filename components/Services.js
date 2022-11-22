@@ -4,14 +4,14 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const Services = (props) => {
   const { service1,iTitle1, service2,iTitle2, service3,iTitle3, service4,iTitle4} = props.img;
-  const { otherServices,title1,title2} = props.services
+  const { otherServices,serviceTitle1,serviceTitle2} = props.services
   
 
   return (
     <div className="mt-[8.75rem] mx-[4rem]  space-y-[2.50rem] mb-[8.75rem]">
       {otherServices ? (
         <div className=" font-bodyCopy text-[2rem]  font-semibold">
-          {title1} <span className="text-[#5095E5]">{title2}</span>{" "}
+          {serviceTitle1} <span className="text-[#5095E5]">{serviceTitle2}</span>{" "}
         </div>
       ) : (
         <div className=" font-bodyCopy text-[2rem]  font-semibold">
