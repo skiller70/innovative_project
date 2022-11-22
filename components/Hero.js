@@ -7,7 +7,7 @@ const Hero = (props) => {
         <div className=" ml-[4rem] space-y-[1.5rem]  my-auto">
           <div className="text-[6rem] -space-y-6  list-none font-bodyCopy">
             
-            <li className="text-[#5095E5] text  font-[44.13rem]"><span className="text-white">{props.heroTitle.heroTitle1}</span> {props.heroTitle2.heroTitle2}</li>
+            <li className="text-[#5095E5] text  font-[44.13rem]"><span className="text-white">{props.heroTitle.heroTitle1}</span> {props.heroTitle1.heroTitle2}</li>
           </div>
 
          
