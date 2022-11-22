@@ -7,7 +7,7 @@ const Hero = (props) => {
         <div className=" ml-[4rem] space-y-[1.5rem]  my-auto">
           <div className="text-[6rem] -space-y-6  list-none font-bodyCopy">
             
-            <li className="text-[#5095E5] text  font-[44.13rem]"><span className="text-white">{props.title.title1}</span> {props.title.title2}</li>
+            <li className="text-[#5095E5] text  font-[44.13rem]"><span className="text-white">{props.heroTitle.heroTitle1}</span> {props.heroTitle2.heroTitle2}</li>
           </div>
 
          
@@ -30,6 +30,7 @@ const Hero = (props) => {
         className="rounded-[2rem] mix-blend-soft-light "
         src={`/${props.img}`}
         fill
+        alt="hero"
       />
     </div>
   );
