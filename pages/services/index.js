@@ -15,7 +15,7 @@ const Index = () => {
         img="main_hero.jpg"
         title={{ title1: "OUR", title2: "SERVICES" }}
       />
-      <PageHeader />
+      <PageHeader pageTitle={{pageTitle1:"Labour Supply"}} />
 
       <ServiceContent
         content={{
@@ -47,7 +47,7 @@ const Index = () => {
           service4: "service4.jpg",
           iTitle4: "Liaising",
         }}
-        services={{ otherServices: true, title1: "OTHER", title2: "SERVICES" }}
+        services={{ otherServices: true, serviceTitle1: "OTHER", serviceTitle1: "SERVICES" }}
       />
       <Contactus />
       <Footer />
