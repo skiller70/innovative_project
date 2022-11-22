@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div >
       <Navbar/>
-      <Hero img="main_hero.jpg"          heroTitle={{ heroTitle1: "OUR", heroTitle2: "SERVICES" }}/>
+      <Hero   service={false} img="main_hero.jpg"          heroTitle={{ heroTitle1: "OUR", heroTitle2: "SERVICES" }}/>
       <Services img={{service1:"service1.jpg",service2:"service2.jpg",service3:"service3.jpg",service4:"service4.jpg"}}  services={{ otherServices: true, serviceTitle1: "OTHER", serviceTitle1: "SERVICES" }} />
       
       <ContactUs/>
