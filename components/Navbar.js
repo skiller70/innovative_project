@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-
+import Link from "next/link"
 
 import { useRouter } from "next/router";
 
@@ -15,13 +15,14 @@ const Navbar = () => {
 
       {/* NAV LINKS */}
       <div className=" lg:p[0.5rem]   flex gap-[2rem] ">
-        <button
+        <Link
+        href="/"
           className={` ${
             router.pathname == "/" ? " bg-[#5095E5] text-white " : ""
           } px-[2rem] py-[1rem] hover:bg-[#5095E5] hover:text-white rounded-[1rem] font-semibold  `}
         >
           HOME
-        </button>
+        </Link>
 
         <button
           className={` ${
@@ -30,13 +31,14 @@ const Navbar = () => {
         >
           ABOUT US
         </button>
-        <button
+        <Link
+        href="/services"
           className={` ${
-            router.pathname == "services" ? " bg-[#5095E5] text-white " : ""
+            router.pathname == "/services" ? " bg-[#5095E5] text-white " : ""
           } px-[2rem] py-[1rem] hover:bg-[#5095E5] hover:text-white rounded-[1rem] font-semibold  `}
         >
-          SERVICES
-        </button>
+          SERVICES 
+        </Link>
         <button
           className={` ${
             router.pathname == "contact" ? " bg-[#5095E5] text-white " : ""

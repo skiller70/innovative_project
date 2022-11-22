@@ -16,7 +16,7 @@ const Services = (props) => {
       ) : (
         <div className=" font-bodyCopy text-[2rem]  font-semibold">
           {" "}
-      {serviceTitle1}   <span>{serviceTitle2}</span>
+      {serviceTitle1} <span>{serviceTitle2}</span>
         </div>
       )}
 
