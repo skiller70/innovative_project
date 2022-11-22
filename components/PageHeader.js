@@ -1,6 +1,6 @@
 
 const PageHeader = (props) => {
-    const { title1} = props.title
+    const { pageTitle1} = props.pageTitle
     return (
         <div className=" px-[21.19em] w-[100%] relative -top-[10rem]">
             
