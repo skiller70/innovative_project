@@ -24,13 +24,14 @@ const Navbar = () => {
           HOME
         </Link>
 
-        <button
+        <Link
+          href="/about"
           className={` ${
-            router.pathname == "about" ? " bg-[#5095E5] text-white " : ""
+            router.pathname == "/about" ? " bg-[#5095E5] text-white " : ""
           } px-[2rem] py-[1rem] hover:bg-[#5095E5] hover:text-white rounded-[1rem] font-semibold  `}
         >
           ABOUT US
-        </button>
+        </Link>
         <Link
         href="/services"
           className={` ${
@@ -39,13 +40,14 @@ const Navbar = () => {
         >
           SERVICES 
         </Link>
-        <button
+        <Link
+          href="/contact"
           className={` ${
-            router.pathname == "contact" ? " bg-[#5095E5] text-white " : ""
+            router.pathname == "/contact" ? " bg-[#5095E5] text-white " : ""
           } px-[2rem] py-[1rem] hover:bg-[#5095E5] hover:text-white rounded-[1rem] font-semibold  `}
         >
           CONTACT US
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MainContent from "../components/MainContent";
 import Navbar from "../components/Navbar";
+import OurClient from "../components/OurClient";
 import Services from "../components/Services";
 import styles from "../styles/Home.module.css";
 
@@ -41,6 +42,7 @@ export default function Home() {
         }}
       />
       <MainContent />
+      <OurClient/>
       <ContactUs />
       <Footer />
     </div>
