@@ -14,12 +14,12 @@ const Hero = (props) => {
         </div>
       ) : (
         <div className=" ml-[4rem] space-y-[1.5rem]  my-auto">
-          <div className="text-[6rem] -space-y-6  list-none font-bodyCopy">
+          <div className=" text-[5rem] md:text-[6rem] -space-y-6  list-none font-bodyCopy">
             <li>Global Solutions For</li>
             <li className="text-[#95BAE5]">Reliable Spaces</li>
           </div>
 
-          <div className=" list-none text-[2rem]">
+          <div className=" list-none text-[2.5rem] pb-[1.5rem] md:pb-0">
             <li>At Innovative we outline your world whole new way</li>
             <li>because we are committed to value, committed to you!</li>
           </div>

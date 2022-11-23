@@ -24,7 +24,7 @@ const AllServices = (props) => {
           </div>
         )} */}
 
-        <div className="grid grid-cols-4 gap-x-[2rem] ">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-x-[2rem] gap-y-[2rem] ">
           {/* ----------------------------------- */}
           <div>
             <div className=" rounded-[2rem] relative aspect-square  object-cover bg-[rgba(0,0,0,0.20)] ">

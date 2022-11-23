@@ -5,14 +5,14 @@ import {faCirclePlay} from "@fortawesome/free-regular-svg-icons"
 const MainContent = () => {
   return (
    <div className="mb-[4rem]">
-     <div className="  mx-[7.94rem] grid  grid-cols-1 md:grid-cols-12  gap-x-2">
+     <div className="  mx-[7.94rem] grid  grid-cols-1 md:grid-cols-12 gap-y-[3rem] md:gap-y-0 gap-x-2">
       {/* *****************------------------------------------************************* */}
       <div className="my-[0.5rem] md:row-span-2 md:col-span-3">
         <div className="relative  aspect-[1/1.3] object-cover">
           <Image alt="main1"  src="/Main1.jpg" fill />  
         </div>
 
-        <div className="relative md:mt-[0.5rem] aspect-[1/1.3] object-cover">
+        <div className="relative mt-[2rem] md:mt-[0.5rem] aspect-[1/1.3] object-cover">
           <Image alt="main2" src="/Main2.jpg" fill />
         </div>
       </div>
@@ -67,7 +67,7 @@ const MainContent = () => {
 
     </div>
 {/* ****************-------------------------------------------**********************************************----------------------------------- */}
-    <div className=" mt-[4rem] mx-[4rem] grid md:grid-cols-3 grid-cols-1 md:gap-x-[1.625rem] text-center">
+    <div className=" mt-[4rem] mx-[4rem] grid md:grid-cols-3 grid-cols-1 gap-y-[3rem] md:gap-x-[1.625rem] text-center">
         {/* **************************************************** */}
         <div className=" py-[2.875rem] bg-[#F4F4F4] rounded-[2rem] shadow-xl">
         {/* ***********  */}
