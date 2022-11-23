@@ -6,11 +6,11 @@ const Footer = () => {
       {/* ADDRESS */}
       <div className="flex justify-center items-center md:items-start md:justify-start  flex-col gap-4">
         {/* LOGO */}
-        <div className=" mt-[4rem] ml-[4.25rem]  relative w-[19.31rem]   aspect-[2/1]">
+        <div className=" mt-[4rem] md:ml-[4.25rem]  relative w-[19.31rem]   aspect-[2/1]">
           <Image src="/logo.png" alt="logo" fill />
         </div>
         {/* ADDRESS */}
-        <div className=" mt-[2rem] md:mt-[0rem] text-center md:text-left ml-[3.94rem] max-w-[41.76rem] ">
+        <div className=" mt-[2rem] md:mt-[0rem] text-center md:text-left md:ml-[3.94rem] max-w-[41.76rem] ">
           <div className="font-semibold text-[2rem]">ADDRESS:</div>
           <div>
             {" "}
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
         {/* CONTACT */}
-        <div className=" mt-[2rem] md:mt-[0rem] text-center md:text-left ml-[3.94rem] md:mb-[10.375rem]">
+        <div className=" mt-[2rem] md:mt-[0rem] text-center md:text-left md:ml-[3.94rem] md:mb-[10.375rem]">
           <div className=" text-[2rem]  pb-[1rem] font-semibold">CONTACT</div>
           <div className="text-[1.50rem] pb-[1rem]">
             {" "}

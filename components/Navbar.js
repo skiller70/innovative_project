@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       {/* NAV LINKS */}
-      <div className=" lg:p[0.5rem]   flex gap-[2rem] ">
+      <div className=" lg:p[0.5rem] hidden md:flex  gap-[2rem] ">
         <Link
         href="/"
           className={` ${

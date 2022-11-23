@@ -5,7 +5,7 @@ const Hero = (props) => {
     <div className=" text-white mx-[4rem]  flex aspect-[2/0.80]  bg-[rgba(0,0,0,0.25)]  rounded-[2rem] object-cover relative">
       {props.service ? (
         <div className=" ml-[4rem] space-y-[1.5rem]  my-auto">
-          <div className="text-[6rem] -space-y-6  list-none font-bodyCopy">
+          <div className="text-[4rem] md:text-[6rem] -space-y-6  list-none font-bodyCopy">
             
             <li className="text-[#5095E5] text  font-[44.13rem]"><span className="text-white">{props.heroTitle.heroTitle1}</span> {props.heroTitle.heroTitle2}</li>
           </div>

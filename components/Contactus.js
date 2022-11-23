@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactUs = () => {
   return (
-    <div className=" font-bodyCopy  grid grid-cols-1  relative   place-items-center  bg-[rgba(0,0,0,0.35)]  aspect-auto  w-[100vw] object-cover ">
+    <div className=" font-bodyCopy  grid grid-cols-1  relative   place-items-center w-[100%]  bg-[rgba(0,0,0,0.35)]  aspect-auto   object-cover ">
 
 
 
@@ -10,25 +10,25 @@ const ContactUs = () => {
         {/* TITLE */}
         <div className="text-[3rem] text-white font-[700] pb-[1rem] ">Contact Us </div>
         {/* FORM */}
-        <div className=" bg-[#A1A9B3] mt-[2.50rem] rounded-[1.02rem] w-[38.94rem] ">
+        <div className=" bg-[#A1A9B3] mt-[2.50rem] rounded-[1.02rem]  w-[30.94rem] md:w-[38.94rem] ">
           <form className="mx-[2.50rem] py-[2.50rem]  space-y-[1.50rem]">
             <div className="space-y-[0.75rem] " >
-              <p className="font-[700]" >Your Name</p>
+              <p className="font-[700] text-[1.50rem] md:text-[1rem]" >Your Name</p>
               <input className=" pl-[2rem] w-[100%] h-[4rem] rounded-[0.6rem]" type="text" />
             </div>
 
             <div className="space-y-[0.75rem]">
-              <p className="font-[700]">Email</p>
-              <input className=" pl-[2rem] w-[100%] h-[4rem] rounded-[0.6rem]"  type="text" />
+              <p className="font-[700] text-[1.50rem] md:text-[1rem]">Email</p>
+              <input className=" pl-[2rem] w-[100%] h-[4rem] rounded-[0.6rem] "  type="text" />
             </div>
 
             <div className="space-y-[0.75rem] ">
-              <p className="font-[700]">Your Query</p>
+              <p className="font-[700] text-[1.50rem] md:text-[1rem] ">Your Query</p>
               <input className=" pl-[2rem] w-[100%] h-[4rem] rounded-[0.6rem]"  type="text" />
             </div>
 
             <div className="mt-[2.50]  flex justify-end">
-              <button className=" py-[1rem] px-[2rem] bg-[#132939]  rounded-[0.73rem] text-white  ">Submit</button>
+              <button className=" py-[1rem] px-[2rem] bg-[#132939]  text-[1.50rem] md:text-[1rem] rounded-[0.73rem] text-white  ">Submit</button>
             </div>
 
           </form>

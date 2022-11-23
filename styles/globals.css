@@ -9,8 +9,8 @@
 @layer base {
 
    
-    html {
-      font-size: calc(7px + 6 * ((100vw - 320px) / 680));
+    html {  
+      font-size: calc(10px + 6 * ((100vw - 320px) / 680));
     }
 
     @screen md { 
