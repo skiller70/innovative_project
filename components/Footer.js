@@ -2,15 +2,15 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className=" bg-[#99D4FF] flex items-center justify-between px-[2rem] py-[1rem] ">
+    <div className=" bg-[#99D4FF] flex flex-col md:flex-row items-center justify-between px-[2rem] py-[1rem] ">
       {/* ADDRESS */}
-      <div className="flex flex-col gap-4">
+      <div className="flex justify-center items-center md:items-start md:justify-start  flex-col gap-4">
         {/* LOGO */}
         <div className=" mt-[4rem] ml-[4.25rem]  relative w-[19.31rem]   aspect-[2/1]">
           <Image src="/logo.png" alt="logo" fill />
         </div>
         {/* ADDRESS */}
-        <div className=" ml-[3.94rem] max-w-[41.76rem] ">
+        <div className=" mt-[2rem] md:mt-[0rem] text-center md:text-left ml-[3.94rem] max-w-[41.76rem] ">
           <div className="font-semibold text-[2rem]">ADDRESS:</div>
           <div>
             {" "}
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
         {/* CONTACT */}
-        <div className=" ml-[3.94rem] mb-[10.375rem]">
+        <div className=" mt-[2rem] md:mt-[0rem] text-center md:text-left ml-[3.94rem] md:mb-[10.375rem]">
           <div className=" text-[2rem]  pb-[1rem] font-semibold">CONTACT</div>
           <div className="text-[1.50rem] pb-[1rem]">
             {" "}
@@ -36,8 +36,8 @@ const Footer = () => {
       </div>
 
       {/* QUICK LINKS */}
-      <div>
-        <div className="font-semibold text-[2rem] pb-[1rem]">QUICK LINKS</div>
+      <div  className="text-center md:text-left">
+        <div className=" mt-[2rem] md:mt-[0rem]   font-semibold text-[2rem] pb-[1rem]">QUICK LINKS</div>
 
         <div>
           <ul className="text-[1.50rem]">
@@ -62,7 +62,7 @@ const Footer = () => {
       </div>
 
       {/* FOLLOW US */}
-      <div>
+      <div  className="text-center md:text-left">
         <div className="font-semibold text-[2rem]">FOLLOW US</div>
         <div className="text-[1.50rem] mt-[1.50rem]">
           <a className=" pr-[2rem] pb-[1rem]">

@@ -20,7 +20,7 @@ const Services = (props) => {
         </div>
       )}
 
-      <div className="grid grid-cols-5 gap-x-[2rem] ">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-x-[2rem] gap-y-[2rem] md:gap-y-[0rem]  ">
         {/* ----------------------------------- */}
         <div >
           <div className=" rounded-[2rem] relative aspect-square  object-cover bg-[rgba(0,0,0,0.20)] ">
