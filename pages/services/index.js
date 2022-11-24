@@ -14,7 +14,7 @@ const Index = () => {
         img="main_hero.jpg"
         heroTitle={{ heroTitle1: "OUR", heroTitle2: "SERVICES" }}
       />
-      <PageHeader pageTitle={<div className=" list-none text-center "> <li className="text-[2.9rem] mx-[1rem] md:ml-[4rem]  "> Comfort is our <span className=" text-[#5095E5]">Top Priority  </span> for you</li> <li className=" text-[1.50rem] mx-[4rem]  font-medium">We provide services for industries to buy / rent land or plots across Maharashtra & Gujarat not only land but other services as well.</li></div>} />
+      <PageHeader pageTitle={<div className=" list-none text-center "> <li className="text-[2.9rem] mx-[1rem] md:ml-[4rem]  "> Comfort is our <span className=" text-[#5095E5]">Top Priority  </span> for you</li> <li className=" text-[1.50rem] mx-[1rem] md:mx-[4rem]  font-medium">We provide services for industries to buy / rent land or plots across Maharashtra & Gujarat not only land but other services as well.</li></div>} />
 
      
         <AllServices img={{
