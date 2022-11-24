@@ -16,16 +16,16 @@ const AboutContent = () => {
             {/* -----------------*********************-------------------------- */}
             <div className=" pl-[6.688rem] pt-[5rem] bg-[#F2F2F2] shadow-xl">
             {/* ********* ***********************************/}
-            <div>
+            <div className="">
                 {/* ******* */}
-                <div className=" text-[3.00rem] font-semibold">WHY CHOOSE <span className=" text-[#5095E5]">US</span> </div>
+                <div className="  text-[3.00rem] font-semibold">WHY CHOOSE <span className=" text-[#5095E5]">US</span> </div>
                 {/* ------*************- */}
                 <div className=" text-[1.50rem] list-none font-medium mt-[2rem] "><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et</li>
                     <li>massa mi. Aliquam in hendrerit urna. Pellentesque sit amet </li>
                     <li>sapien fringilla, mattis ligula consectetur, ultrices mauris.</li>
                 </div>
                 {/* ********************** */}
-                <div className=" grid grid-cols-2">
+                <div className=" grid grid-cols-1 md:grid-cols-2 py-[2rem] md:py-[0rem]">
                     {/* ****** */}
                     <div className="flex  mt-[4.313rem]">
                         {/* ** image */}
@@ -133,7 +133,7 @@ const AboutContent = () => {
             </div>
 {/* 
         *-----------------******************************************--------------------------------- */}
-            <div className="relative aspect-[2/1.5] -top-[85rem]  md:-top-[45rem] md:left-[4rem] object-cover"> 
+            <div className="relative aspect-[2/1.5] -top-[110rem] sm:-top-[108rem]  md:-top-[45rem] md:left-[4rem] object-cover"> 
                 <Image src="/aboutFront.png" alt=" about front" fill />
             </div>
 
