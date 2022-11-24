@@ -33,6 +33,12 @@ const Index = () => {
           iTitle3: "Permissions",
           service4: "service4.jpg",
           iTitle4: "Liaising",
+          service5: "service4.jpg",
+          iTitle5 : "Security Services",
+          service6: "service4.jpg",
+          iTitle6 : "Legal Advisors",
+          service7: "service4.jpg",
+          iTitle7 : "Labour Supply",
         }}
         services={{ otherServices: true, serviceTitle1: "OTHER", serviceTitle1: "SERVICES" }}    />
            <Footer/> 

@@ -5,7 +5,7 @@ import {faCirclePlay} from "@fortawesome/free-regular-svg-icons"
 const MainContent = () => {
   return (
    <div className="mb-[4rem]">
-     <div className="  md:mx-[7.94rem] grid  grid-cols-1 md:grid-cols-12 gap-y-[3rem] md:gap-y-0 gap-x-2">
+     <div className="  mx-[1.50rem] md:mx-[7.94rem] grid  grid-cols-1 md:grid-cols-12 gap-y-[3rem] md:gap-y-0 gap-x-2">
       {/* *****************------------------------------------************************* */}
       <div className="my-[0.5rem] md:row-span-2 md:col-span-3">
         <div className="relative  aspect-[1/1.3] object-cover">
