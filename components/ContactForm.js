@@ -1,7 +1,7 @@
 
 const ContactForm = () => {
     return (
-        <div className=" mx-[4rem]  pt-[4.5rem] mb-[8.75rem]">
+        <div className=" mx-[4rem]  pt-[4.5rem] mb-[8.75rem] font-bodyCopy" >
                 {/* ***************************************** */}
 
                 <div className="  text-[3.00rem]"> Write to us! </div>

@@ -11,7 +11,7 @@ const AllServices = (props) => {
     
   return (
     <div>
-      <div className=" mx-[1.50rem] md:mx-[4rem]  space-y-[2.50rem] mb-[8.75rem]">
+      <div className=" mx-[1.50rem] md:mx-[4rem]  space-y-[2.50rem] mb-[8.75rem] font-bodyCopy">
         {/* {otherServices ? (
           <div className=" font-bodyCopy text-[2rem]  font-semibold">
             {serviceTitle1}{" "}

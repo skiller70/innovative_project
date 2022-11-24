@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutHeader = () => {
     return (
-        <div className=" md:mx-[19.50rem] rounded-t-[2rem] shadow-2xl relative md:-top-[13rem] bg-white">
+        <div className=" md:mx-[19.50rem] rounded-t-[2rem] shadow-2xl relative md:-top-[13rem] bg-white font-bodyCopy">
 {/* ************************************************************************ */}
             <div className="grid  grid-cols-1  md:grid-cols-2">
                 {/* ******************************************** */}

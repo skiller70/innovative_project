@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const OurClient = () => {
   return (
-    <div className="mb-[6.375rem]">
+    <div className="mb-[6.375rem] font-bodyCopy">
       <div className=" text-[2rem] font-semibold ml-[4rem] ">Our Clients</div>
       <div className=" grid grid-cols-1 md:grid-cols-12 gap-y-[4rem] mt-[3rem]">
         <div className=" flex  justify-center col-span-1 md:col-span-6  ">

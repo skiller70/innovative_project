@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 const AboutTeam = () => {
     return (
-        <div className=" absolute sm:top-[240rem] md:top-[132rem]  top-[215rem] xl:top-[140rem] w-[100%] ">
+        <div className=" absolute sm:top-[240rem] md:top-[132rem]  top-[215rem] xl:top-[140rem] w-[100%] font-bodyCopy ">
             <div>
     {/* ******** */}
 <div className="text-center text-[3rem]"> MEET OUR <span  className=" text-[#5095E5] font-bold"> TEAM</span> </div>

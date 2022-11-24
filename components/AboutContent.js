@@ -5,7 +5,7 @@ const AboutContent = () => {
     return (
         <div className="  ">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 relative -top-[13rem]  ">
+            <div className="grid grid-cols-1 md:grid-cols-2 relative -top-[13rem]  font-bodyCopy ">
         {/* -------------------------------------------------------- */}
             <div className="relative aspect-[2/1.8] object-cover shadow-xl">
 

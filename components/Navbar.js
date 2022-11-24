@@ -7,14 +7,14 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const router = useRouter();
   return (
-    <div className=" px-[4rem] bg-white  justify-between flex  items-center py-[1rem]  sticky top-0 z-50 ">
+    <div className=" font-bodyCopy px-[4rem] bg-white  justify-between flex  items-center py-[1rem]  sticky top-0 z-50 ">
       {/* NAV LOGO */}
       <div className=" w-[10.81rem]    aspect-[2/1] relative ">
         <Image src="/logo.png" alt="logo" fill/>
       </div>
 
       {/* NAV LINKS */}
-      <div className=" lg:p[0.5rem] hidden md:flex  gap-[2rem] ">
+      <div className=" lg:p[0.5rem] hidden md:flex  gap-[2rem]   ">
         <Link
         href="/"
           className={` ${

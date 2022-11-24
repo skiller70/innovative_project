@@ -9,7 +9,7 @@ const Services = (props) => {
   
 
   return (
-    <div className="mt-[8.75rem] mx-[1.50rem] md:mx-[4rem]  space-y-[2.50rem] mb-[8.75rem]">
+    <div className="mt-[8.75rem] mx-[1.50rem] md:mx-[4rem] font-bodyCopy  space-y-[2.50rem] mb-[8.75rem]">
       {otherServices ? (
         <div className=" font-bodyCopy text-[2rem]  font-semibold">
           {serviceTitle1} <span className="text-[#5095E5]">{serviceTitle2}</span>{" "}
