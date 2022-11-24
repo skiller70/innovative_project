@@ -102,7 +102,7 @@ const Services = (props) => {
         </div>
         {/* ----------*******************----------------- */}
         <div >
-        <Link href="/liaising">
+        <Link href="/Liaising">
           <div className=" rounded-[2rem] relative aspect-square  object-cover bg-[rgba(0,0,0,0.20)] " >
           <div className="w-[3rem] bg-[#5095E5]  h-[3rem]  flex justify-center z-10 absolute  rounded-[32px] right-[1.50rem] top-[1.50rem]">
             <button>
