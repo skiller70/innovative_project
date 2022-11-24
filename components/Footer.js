@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -41,22 +42,31 @@ const Footer = () => {
 
         <div>
           <ul className="text-[1.50rem]">
+            <Link href="/">
             <li className=" pb-[1rem]">
               {" "}
               <button>Home</button>
             </li>
+            </Link>
+            <Link href="/about">
             <li className=" pb-[1rem]">
               {" "}
               <button>About us</button>
             </li>
+            </Link>
+            <Link href="/services">
+           
             <li className=" pb-[1rem]">
               {" "}
               <button>Services</button>
             </li>
+            </Link>
+            <Link href="/contact">
             <li className=" pb-[1rem]">
               {" "}
               <button>Contact us</button>
             </li>
+            </Link>
           </ul>
         </div>
       </div>
