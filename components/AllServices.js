@@ -23,7 +23,7 @@ const AllServices = (props) => {
             {serviceTitle1} <span>{serviceTitle2}</span>
           </div>
         )} */}
-a
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-x-[2rem] gap-y-[2rem] ">
           {/* ----------------------------------- */}
           <div>
